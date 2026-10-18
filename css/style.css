@@ -5,6 +5,21 @@
             --md-sys-typescale-title-large-line-height: 28px;
             --md-sys-color-primary: #0f4c81;
             --md-sys-color-on-primary: #ffffff;
+            background-color: #eceff1;
+            background-image: linear-gradient(#0f4c81 50%, #0a3d66 50%);
+            background-position: left top;
+            background-size: 33.33% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        @media (max-width: 959px) {
+            :root { background-size: 41.67% 100%; }
+        }
+        @media (max-width: 599px) {
+            :root {
+                background-image: linear-gradient(#0f4c81 50%, #eceff1 50%);
+                background-size: 100% 100%;
+            }
         }
         body {
             margin: 0;
